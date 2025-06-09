@@ -1,0 +1,24 @@
+{
+  "name": "theme-template",
+  "version": "1.0.0",
+  "description": "A theme template",
+  "license": "ISC",
+  "engines": {
+    "node": ">=20.0.0",
+    "pnpm": ">=10.0.0"
+  },
+  "author": "",
+  "scripts": {
+    "build": "replugged build theme",
+    "watch": "replugged build theme --watch",
+    "bundle": "replugged bundle theme",
+    "release": "replugged release",
+    "lint": "prettier ./src --check",
+    "lint:fix": "prettier ./src --write"
+  },
+  "devDependencies": {
+    "@types/node": "^20.17.30",
+    "prettier": "^3.5.3",
+    "replugged": "^4.9.0"
+  }
+}
